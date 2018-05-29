@@ -79,7 +79,7 @@ public class Network3 implements Runnable{
 				e.printStackTrace();
 				System.exit(-1);
 			}
-			//System.out.println(graph);
+			System.out.println(graph);
 
 			// add vertices to list
 			vertices = new Vertices();

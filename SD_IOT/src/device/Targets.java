@@ -36,7 +36,8 @@ public class Targets extends HashMap<Integer, Target> {
 			List<Request> values = new ArrayList<>(requests.values());
 			Collections.shuffle(values);
 			for (int i = 0; i < randomRequestsNumber; i++) {
-				Request randomRequest = values.get(random.nextInt(values.size()));
+				//Request randomRequest = values.get(random.nextInt(values.size()));//Request may be duplicate
+				Request randomRequest = values.get(i);
 				randomRequest.AddLocation(target);
 				target.addRequestedBy(randomRequest);
 			}

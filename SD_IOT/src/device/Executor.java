@@ -3,8 +3,8 @@ package device;
 import java.util.concurrent.*;
 
 public class Executor {
-	public static final String INS_GML = "C:\\Users\\marco\\git\\setcover\\setcover\\gml\\IowaStatewideFiberMap.gml";
-	public static final String PALMETTO_GML = "C:\\Users\\marco\\git\\setcover\\setcover\\gml\\Palmetto.gml";
+	public static final String INS_GML = "C:\\Users\\Mnetlab\\git\\SD_IOT\\SD_IOT\\gml\\IowaStatewideFiberMap.gml";
+	public static final String PALMETTO_GML = "C:\\Users\\Mnetlab\\git\\SD_IOT\\SD_IOT\\gml\\Palmetto.gml";
 	//public static final String INS_GML = "/home/mnetlab/eclipse-workspace/SD_IOT/SD_IOT/gml/IowaStatewideFiberMap.gml";
 	//public static final String PALMETTO_GML = "/home/mnetlab/eclipse-workspace/SD_IOT/SD_IOT/gml/Palmetto.gml";
 	
